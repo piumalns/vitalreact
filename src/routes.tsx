@@ -1,7 +1,3 @@
-import {FC} from 'react';
-// layouts
-import Homelayouts from './layouts/Homelayouts';
-
 // views
 import Views from './modules/Views';
 
@@ -14,7 +10,6 @@ interface RouteItem {
 const routes : Array<RouteItem> = [
   {
     path: "/",
-    // layout: Homelayouts,
     exact: true,
     component: Views.HomeView,
   },
